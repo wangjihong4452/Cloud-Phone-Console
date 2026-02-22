@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>我的网站</title>
+  <style>
+    /* 全局样式，模拟命令提示符风格 */
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0c0c0c; /* 黑色背景 */
+      color: #c0c0c0;           /* 浅灰色字体 */
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #ffffff;           /* 标题白色 */
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .link-item {
+      display: flex;
+      justify-content: space-between; /* 左右分布 */
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 8px;
+      border: 1px solid #333;         /* 边框颜色稍深 */
+      background-color: #1e1e1e;     /* 稍浅的黑色背景区分 */
+    }
+
+    .link-item a {
+      color: #00ff00;                /* 链接为绿色，像命令提示符 */
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .link-item a:hover {
+      text-decoration: underline;
+    }
+
+    .link-item .description {
+      color: #aaaaaa;               /* 说明文字为更浅的灰色 */
+      font-size: 14px;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>我的网站</h1>
+
+    <div class="link-item">
+      <a href="https://wangjihong4452.github.io" target="_blank">https://wangjihong4452.github.io</a>
+      <span class="description">自制云手机</span>
+    </div>
+
+    <div class="link-item">
+      <a href="https://wangjihong4452.github.io/my-login-site" target="_blank">https://wangjihong4452.github.io/my-login-site</a>
+      <span class="description">自制游戏相关网站导航</span>
+    </div>
+
+    <div class="link-item">
+      <a href="https://wangjihong4452.github.io/game" target="_blank">https://wangjihong4452.github.io/game</a>
+      <span class="description">2048游戏</span>
+    </div>
+  </div>
+</body>
+</html>
